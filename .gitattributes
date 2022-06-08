@@ -2,3 +2,5 @@
 /amazonlinuxplus/Dockerfile filter=lfs diff=lfs merge=lfs -text
 /amazonlinuxplusopenjdk/Dockerfile filter=lfs diff=lfs merge=lfs -text
 *.Dockerfile filter=lfs diff=lfs merge=lfs -text
+*.adoptium filter=lfs diff=lfs merge=lfs -text
+*.gz filter=lfs diff=lfs merge=lfs -text
